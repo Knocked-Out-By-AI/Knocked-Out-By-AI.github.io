@@ -60,7 +60,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  since: 2018
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -162,8 +162,8 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  E-Mail: mailto:tyakennikku@163.com || envelope
-  QQ: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1113119882&website=www.oicqzone.com || qq
+  #E-Mail: mailto:tyakennikku@163.com || envelope
+  #QQ: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1113119882&website=www.oicqzone.com || qq
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -195,8 +195,9 @@ links_title: 友链
 links_layout: block
 #links_layout: inline
 links:
-  _ConveX: https://www.cnblogs.com/SaltedHXJ/
-  Potassium: https://potassiumwings.github.io/
+  Chielo Newctle: https://chielonewctle.github.io/
+  Prime21: https://prime21.github.io/
+  nikkukun: https://nikkukun.github.io/
 
 # Sidebar Avatar
 avatar:

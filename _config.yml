@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Nikkukun's Blog
+title: BUAA Knocked out by AI
 subtitle:
-description: 是个蒟蒻，梦想不是造飞机。
+description: 
 keywords:
-author: nikkukun
+author: 
 language: zh-CN
 timezone:
 
@@ -95,5 +95,5 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/nikkukun/nikkukun.github.io.git
+  repo: https://github.com/KnockedOutByAI/icpc-team-wiki.git
   branch: master
