@@ -95,5 +95,5 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/KnockedOutByAI/icpc-team-wiki.git
+  repo: https://github.com/Knocked-Out-By-AI/knocked-out-by-ai.github.io.git
   branch: master

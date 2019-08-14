@@ -19,7 +19,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "KnockedOutByAI"
+  - git config user.name "Knocked-Out-By-AI"
   - git config user.email "knockedoutbyai@163.com"
   - git add .
   - git commit -m "Update docs by travis."
@@ -31,4 +31,4 @@ branches:
 
 env:
   global:
-    - GH_REF: github.com/KnockedOutByAI/icpc-team-wiki.git
+    - GH_REF: github.com/Knocked-Out-By-AI/knocked-out-by-ai.github.io.git
