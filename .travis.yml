@@ -1,0 +1,34 @@
+language: node_js
+node_js: stable
+
+cache:
+  directories:
+    - node_modules
+
+before_script:
+  - wget https://github.com/jgm/pandoc/releases/download/2.7/pandoc-2.7-1-amd64.deb
+  - sudo dpkg -i ./pandoc-2.7-1-amd64.deb
+
+install:
+  - npm install -g hexo-cli
+  - npm install
+
+script:
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "KnockedOutByAI"
+  - git config user.email "knockedoutbyai@163.com"
+  - git add .
+  - git commit -m "Update docs by travis."
+  - git push --force --quiet "https://${travis}@${GH_REF}" master:master
+
+branches:
+  only:
+    - source
+
+env:
+  global:
+    - GH_REF: github.com/KnockedOutByAI/icpc-team-wiki.git
